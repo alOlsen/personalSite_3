@@ -13,6 +13,69 @@
 				</ul>
 			</nav>
 			<h1> CONTACT ME </h1>
+<form id="contactForm" action="index.html" method="post">
+<table>
+	<tr>
+		<td>Name:</td>
+		<td>
+			<input type="text" name="userName" id="userName" placeholder="Enter your Name :)"/>
+		</td>
+	</tr>
+	<tr>
+		<td>Password:</td>
+		<td>
+			<input type="password" name="pass" id="pass" placeholder="Enter Password"/>
+		</td>
+	</tr>
+	<tr>
+		<td>Class Day</td>
+		<td>
+			<input type="checkbox" name="classday" value="m"/> M
+			<input type="checkbox" name="classday" value="t"/> T
+			<input type="checkbox" name="classday" value="w"/> W
+			<input type="checkbox" name="classday" value="th"/> Th
+			<input type="checkbox" name="classday" value="f"/> F
+		</td>
+	</tr>
+	<tr>
+		<td>Birth Month</td>
+		<td>
+			<select name="birthMonth">
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+				<option value="Apr">Apr</option>
+				<option value="Jun">Jun</option>
+				<option value="Jul">Jul</option>
+				<option value="Aug">Aug</option>
+				<option value="Sep">Sep</option>
+				<option value="Oct">Oct</option>
+				<option value="Nov">Nov</option>
+				<option value="Dec">Dec</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Gender</td>
+		<td>
+			<input type="radio" name="gender" value="male"/> Male
+			<input type="radio" name="gender" value="female"/> Female
+		</td>
+	</tr>
+	<tr>
+		<td>Message</td>
+		<td>
+			<textarea name="userMessage"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="submit" value="submit"/> 
+			<input type="reset" value="reset"/>
+		</td>
+	</tr>
+</table>
+</form>
 
 
 		</div>
